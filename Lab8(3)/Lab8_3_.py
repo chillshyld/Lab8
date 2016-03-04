@@ -5,3 +5,7 @@ from PySide.QtGui import *
 def main():
     app = QtAPPlication(sys.argv)
     w = Simple_drawing_window()
+    w.show()
+    print("hey")
+
+
