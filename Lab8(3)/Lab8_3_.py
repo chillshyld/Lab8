@@ -1,5 +1,7 @@
-print ("hello world")
+import sys
+from PySide.QtCore import *
+from PySide.QtGui import *
 
-print ("Christmas play")
-
-print("from potae")
+def main():
+    app = QtAPPlication(sys.argv)
+    w = Simple_drawing
