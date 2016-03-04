@@ -1,7 +1,7 @@
-import sys
-from PySide.QtCore import *
-from PySide.QtGui import *
-
-def main():
-    app = QtAPPlication(sys.argv)
-    w = Simple_drawing
+def paintEvent(self, e):
+    p = Qpainter()
+    p.begin(self)
+    
+    p.setPen(QColor(0,0,0))
+    p.setBrush(QColor(0, 127, 0))
+    p.drawPolygon()
