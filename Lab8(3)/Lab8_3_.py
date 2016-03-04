@@ -14,3 +14,6 @@ class Simple_drawing_window(QWidget):
         self.rabbit = QImage("images/rabbit.png")
 
 
+
+    
+
